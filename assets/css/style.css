@@ -1,7 +1,6 @@
-* body,
-* html {
+body,
+html {
   font-family: "Poppins", sans-serif;
-  color: #000000;
 }
 
 img {
@@ -19,38 +18,16 @@ img {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
-.dropdown-menu li {
-  position: relative;
-}
-
 .dropdown-menu {
   margin: 0;
   padding: 0;
   border-radius: 0;
-  border: none;
+  border: 0;
 }
 
-.dropdown-menu .dropdown-submenu {
-  display: none;
-  position: absolute;
-  left: 100%;
-  top: -7px;
-}
-
-.dropdown-menu .dropdown-submenu-left {
-  right: 100%;
-  left: auto;
-}
-
-.dropdown-menu > li:hover > .dropdown-submenu {
-  display: block;
-}
-
-.dropdown-item.active,
 .dropdown-item:active,
 .dropdown-item:hover {
   background-color: #20b15a;
-  color: #fff;
 }
 
 .dropdown-item {
@@ -58,7 +35,7 @@ img {
   font-weight: 400;
   line-height: 1;
   padding: 15px 20px;
-  color: #000;
+  color: black;
   border-bottom: 1px solid #e5e5e5;
 }
 
@@ -90,7 +67,7 @@ header .navbar-expand-lg .navbar-nav {
 }
 
 .text-dark {
-  color: #000000;
+  color: black;
 }
 
 .fw-regular {
@@ -106,7 +83,7 @@ header .navbar-expand-lg .navbar-nav {
 }
 
 .btn-outline-success:hover {
-  color: #fff;
+  border-color: white;
 }
 
 .btn-success {
@@ -117,10 +94,10 @@ header .navbar-expand-lg .navbar-nav {
 header.fixed-top {
   background-color: #d7f5dc;
 }
-
 /* Header CSS End */
 
-/* Hero Banner CSS Start */
+/* Hero Banner Start */
+
 .hero-banner {
   background-color: #d7f5dc;
   padding: 120px 0 35px;
@@ -149,10 +126,9 @@ header.fixed-top {
   background-color: #fff;
   padding: 44px 0;
 }
+/* Hero Banner End */
+/* What we do Start */
 
-/* Hero Banner CSS End */
-
-/* What we do CSS Start */
 .what-we-do {
   padding: 65px 0;
 }
@@ -177,11 +153,11 @@ header.fixed-top {
   padding: 50px 50px 50px 30px;
   border-radius: 30px;
   transition: all 0.35s linear;
-  background-color: #fff;
+  background-color: white;
 }
 
 .what-we-do .boxes-wrapper:hover {
-  box-shadow: 0px 4px 20px 0px #0000001a;
+  box-shadow: 0 4px 20px 0 #0000001a;
 }
 
 .what-we-do .boxes-wrapper h3 {
@@ -200,7 +176,6 @@ header.fixed-top {
 
 .what-we-do .boxes-wrapper a {
   transition: all 0.35s linear;
-
   font-size: 18px;
   font-weight: 400;
   line-height: 1;
@@ -212,7 +187,7 @@ header.fixed-top {
 }
 
 .what-we-do .boxes-wrapper:hover a {
-  color: #fff;
+  color: white;
   background-color: #f55f1d;
 }
 
@@ -224,9 +199,9 @@ header.fixed-top {
   filter: invert(1);
 }
 
-/* What we do CSS End */
+/* What we do End */
+/* Our progress Start */
 
-/* Our Progress CSS Start */
 .our-progress {
   padding: 80px 0;
   background-color: #fafffb;
@@ -255,23 +230,22 @@ header.fixed-top {
 
 .our-progress ul li h2 {
   margin: 0;
-
   font-size: 40px;
   font-weight: 700;
   line-height: 1.5;
   color: #20b15a;
 }
 
-/* Our Progress CSS End */
+/* Our progress End */
+/* Portfolio Start */
 
-/* Our Portfolio CSS Start */
 .portfolio {
   padding: 75px 0;
 }
 
 .portfolio-container {
-  column-count: 2;
   column-gap: 6em;
+  column-count: 2;
 }
 
 .portfolio h2.main-heading {
@@ -284,7 +258,7 @@ header.fixed-top {
   break-inside: avoid;
 }
 
-.portfolio .portfolio-wrapper:nth-child(odd) {
+.portfolio.portfolio-wrapper:nth-child(odd) {
   margin: 0 0 6em;
 }
 
@@ -305,13 +279,12 @@ header.fixed-top {
   font-weight: 400;
   line-height: 1.5;
   margin: 0;
-
   padding-right: 27px;
 }
 
-/* Our Portfolio CSS End */
+/* Portfolio End */
+/* Testimonials Start */
 
-/* Testimonials CSS Start */
 .testimonials {
   padding: 115px 0;
 }
@@ -319,8 +292,8 @@ header.fixed-top {
 .testimonials-slider .item {
   padding: 40px;
   border-radius: 20px;
-  box-shadow: 0px 4px 4px 0px #00000040;
-  background-color: #fff;
+  box-shadow: 0 4px 4px 0 #00000040;
+  background-color: white;
   margin: 0 23.5px;
 }
 
@@ -376,23 +349,22 @@ header.fixed-top {
   right: 7%;
   bottom: unset;
   top: -125px;
-  border: 1px solid #000000;
+  border: 1px solid black;
   height: 60px;
   width: 60px;
   border-radius: 60px;
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  background-color: #fff;
+  background-color: white;
   transition: all 0.35s linear;
 }
 
 .testimonials-slider .slick-arrow svg {
-  fill: #000;
+  fill: black;
   height: 22px;
   width: 22px;
 }
-
 .testimonials-slider .slick-arrow:hover {
   background-color: #d7f5dc;
   border-color: #d7f5dc;
@@ -402,63 +374,61 @@ header.fixed-top {
   right: 13%;
 }
 
-/* Testimonials CSS End */
+/* Testimonials End */
+/* Newsletter Start */
 
-/* Subscribe CSS Start */
-.subcribe {
+.subscribe {
   padding: 95px 0;
 }
 
-.subcribe h5.sub-heading {
+.subscribe h5.sub-heading {
   margin-bottom: 22px;
 }
 
-.subcribe h2.main-heading {
+.subscribe h2.main-heading {
   text-transform: capitalize;
   line-height: 1.5;
   margin-bottom: 5px;
 }
 
-.subcribe p {
+.subscribe p {
   font-size: 15px;
   font-weight: 500;
   line-height: 22px;
-
   color: #8b8b8b;
   margin-bottom: 40px;
 }
 
-.subcribe form input[type="email"] {
-  padding: 20px 16px 20px 16px;
+.subscribe form input[type="email"] {
+  padding: 20px 16px;
   border-radius: 14px;
-  border: 1px solid #000;
+  border: 1px solid black;
   width: 100%;
-
   outline: 0;
   max-height: 62px;
 }
 
-.subcribe form input::placeholder {
+.subscribe form input::placeholder {
   font-size: 16px;
   font-weight: 400;
   line-height: 22px;
   color: #8b8b8b;
 }
 
-.subcribe form input[type="submit"] {
+.subscribe form input[type="submit"] {
   position: absolute;
   right: 4.5px;
-  padding: 8px 24px 8px 24px;
+  padding: 8px 24px;
   border-radius: 14px;
   background-color: #f55f1d;
   border: none;
   outline: 0;
-  color: #fff;
+  color: white;
   height: 52px;
   top: 4.5px;
 }
 
-.subcribe form {
+.subscribe form {
   position: relative;
 }
 
@@ -467,13 +437,12 @@ div#subscribe-response-message {
   font-size: 15px;
   font-weight: 500;
   line-height: 22px;
-
   color: #8b8b8b;
 }
 
-/* Subscribe CSS End */
+/* Newsletter End */
+/* Footer Start */
 
-/* Footer CSS Start */
 .site-footer {
   padding: 75px 0 30px;
   background-color: #00ca72;
@@ -491,14 +460,6 @@ div#subscribe-response-message {
   text-decoration: none;
 }
 
-.site-footer p {
-  font-size: 20px;
-  font-weight: 400;
-  max-width: 350px;
-  line-height: 27px;
-  margin: 0;
-}
-
 .site-footer .social-icons {
   margin-top: 20px;
   column-gap: 15px;
@@ -509,7 +470,7 @@ div#subscribe-response-message {
   width: 41px;
   border-radius: 41px;
   background-color: #20b15a;
-  color: #fff;
+  color: white;
   font-size: 17px;
   display: inline-flex;
   justify-content: center;
@@ -533,7 +494,6 @@ div#subscribe-response-message {
 
 .site-footer .footer-menu li a {
   display: inline-block;
-
   font-size: 18px;
   font-weight: 500;
   line-height: 1;
@@ -545,14 +505,14 @@ div#subscribe-response-message {
   margin: 70px 0 0;
 }
 
-/* Footer CSS End */
+/* Footer End */
 
-/* Media Query */
+/* Media Queries Start*/
+
 @media screen and (max-width: 1199px) {
   .container {
     max-width: 1140px;
   }
-  /* Global CSS */
 
   .hero-banner h2 {
     font-size: 44px;
@@ -561,7 +521,6 @@ div#subscribe-response-message {
   .social-logos {
     padding: 35px 0;
   }
-  /* Hero Section */
 
   .what-we-do .boxes-wrapper {
     padding-right: 30px;
@@ -571,14 +530,8 @@ div#subscribe-response-message {
     min-height: 57px;
   }
 
-  /* What we do */
-
   .testimonials-slider .slick-arrow {
     right: 15px;
-  }
-
-  .testimonials-slider .slick-prev {
-    right: 46px;
   }
 
   .testimonials-slider .slick-prev {
@@ -594,7 +547,7 @@ div#subscribe-response-message {
   }
 
   .testimonials,
-  .subcribe {
+  .subscribe {
     padding: 80px 0;
   }
 
@@ -605,15 +558,12 @@ div#subscribe-response-message {
   .testimonials-slider .item {
     padding: 30px;
   }
-
-  /* Testimonials */
 }
 
 @media screen and (max-width: 992px) {
   header .navbar-expand-lg .navbar-nav {
     row-gap: 20px;
   }
-  /* Header */
 
   .hero-banner h2 {
     font-size: 34px;
@@ -627,7 +577,6 @@ div#subscribe-response-message {
   .hero-banner {
     padding: 90px 0 25px;
   }
-  /* Hero Banner */
 
   .what-we-do .boxes-wrapper {
     padding: 30px;
@@ -654,16 +603,14 @@ div#subscribe-response-message {
   .what-we-do .boxes-wrapper a img {
     width: 14px;
   }
-  /* What we do */
 
   .our-progress {
     padding: 50px 0;
   }
 
   .our-progress ul li {
-    border-right: none;
+    border-radius: none;
   }
-  /* Our Progress */
 
   .portfolio-container {
     column-gap: 4em;
@@ -677,10 +624,9 @@ div#subscribe-response-message {
     font-size: 14px;
     padding-right: 0;
   }
-  /* Portfolio */
 
   .testimonials,
-  .subcribe {
+  .subscribe {
     padding: 60px 0;
   }
 
@@ -692,7 +638,6 @@ div#subscribe-response-message {
   .testimonials-slider .slick-list {
     padding: 0 30% 0 0;
   }
-  /* Testimonials */
 
   .site-footer p {
     font-size: 16px;
@@ -714,7 +659,6 @@ div#subscribe-response-message {
   .site-footer .footer-menu {
     row-gap: 15px;
   }
-  /* Footer */
 }
 
 @media screen and (max-width: 767px) {
@@ -734,8 +678,6 @@ div#subscribe-response-message {
   header .navbar-collapse {
     padding-top: 30px;
   }
-
-  /* Global */
 
   .hero-banner .col-md-6 {
     text-align: center;
@@ -757,18 +699,15 @@ div#subscribe-response-message {
     padding: 0 15px;
     text-align: center;
   }
-  /* Hero Banner */
 
   .what-we-do .boxes-wrapper h3 {
     min-height: auto;
   }
-  /* What we do */
 
   .our-progress ul li {
     padding: 25px;
     flex: 0 0 100%;
   }
-  /* Our Progress */
 
   .portfolio-container {
     column-count: 1;
@@ -781,7 +720,6 @@ div#subscribe-response-message {
   .portfolio .portfolio-wrapper:last-child {
     margin: 0;
   }
-  /* Portfolio */
 
   .testimonials-slider .slick-list {
     padding: 0;
@@ -813,12 +751,10 @@ div#subscribe-response-message {
   .testimonials-slider .slick-prev {
     right: 70px;
   }
-  /* Testimonials */
 
-  .subcribe form input::placeholder {
+  .subscribe form input::placeholder {
     font-size: 14px;
   }
-  /* Subscribe */
 
   .site-footer .row {
     row-gap: 30px;
@@ -826,7 +762,7 @@ div#subscribe-response-message {
 
   .site-footer .copyright {
     margin: 30px 0 0;
-    text-align: center;
+    text-align: left;
   }
 
   .site-footer {
@@ -837,5 +773,6 @@ div#subscribe-response-message {
   .site-footer .col-md-3 {
     width: 100%;
   }
-  /* Footer */
 }
+
+/* Media Queries End*/
