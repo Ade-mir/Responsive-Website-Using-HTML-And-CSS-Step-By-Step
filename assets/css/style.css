@@ -1,0 +1,841 @@
+* body,
+* html {
+  font-family: "Poppins", sans-serif;
+  color: #000000;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Header CSS Start */
+
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 0.25rem #20b15a6b;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.dropdown-menu li {
+  position: relative;
+}
+
+.dropdown-menu {
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  border: none;
+}
+
+.dropdown-menu .dropdown-submenu {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: -7px;
+}
+
+.dropdown-menu .dropdown-submenu-left {
+  right: 100%;
+  left: auto;
+}
+
+.dropdown-menu > li:hover > .dropdown-submenu {
+  display: block;
+}
+
+.dropdown-item.active,
+.dropdown-item:active,
+.dropdown-item:hover {
+  background-color: #20b15a;
+  color: #fff;
+}
+
+.dropdown-item {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1;
+  padding: 15px 20px;
+  color: #000;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+li:last-child .dropdown-item {
+  border-bottom: none;
+}
+
+.navbar-brand {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  color: inherit;
+}
+
+.navbar-brand:hover {
+  color: inherit;
+}
+
+.navbar-brand span {
+  color: #f55f1d;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+header .navbar-expand-lg .navbar-nav {
+  column-gap: 30px;
+}
+
+.text-dark {
+  color: #000000;
+}
+
+.fw-regular {
+  font-weight: 500;
+}
+
+.radius-10 {
+  border-radius: 10px;
+}
+
+.btn-outline-success {
+  border-color: #20b15a;
+}
+
+.btn-outline-success:hover {
+  color: #fff;
+}
+
+.btn-success {
+  border-color: #20b15a;
+  background-color: #20b15a;
+}
+
+header.fixed-top {
+  background-color: #d7f5dc;
+}
+
+/* Header CSS End */
+
+/* Hero Banner CSS Start */
+.hero-banner {
+  background-color: #d7f5dc;
+  padding: 120px 0 35px;
+}
+
+.hero-banner h2 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 10px;
+}
+
+.hero-banner p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 37px;
+}
+
+.hero-banner a {
+  padding: 20px 30px;
+  line-height: 1;
+}
+
+.social-logos {
+  background-color: #fff;
+  padding: 44px 0;
+}
+
+/* Hero Banner CSS End */
+
+/* What we do CSS Start */
+.what-we-do {
+  padding: 65px 0;
+}
+
+.sub-heading {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 15px;
+  color: #20b15a;
+  text-transform: uppercase;
+}
+
+.main-heading {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: 40px;
+}
+
+.what-we-do .boxes-wrapper {
+  padding: 50px 50px 50px 30px;
+  border-radius: 30px;
+  transition: all 0.35s linear;
+  background-color: #fff;
+}
+
+.what-we-do .boxes-wrapper:hover {
+  box-shadow: 0px 4px 20px 0px #0000001a;
+}
+
+.what-we-do .boxes-wrapper h3 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 15px;
+}
+
+.what-we-do .boxes-wrapper p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+.what-we-do .boxes-wrapper a {
+  transition: all 0.35s linear;
+
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1;
+  padding: 15px 20px;
+  border-radius: 10px;
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.what-we-do .boxes-wrapper:hover a {
+  color: #fff;
+  background-color: #f55f1d;
+}
+
+.what-we-do .boxes-wrapper a img {
+  transition: all 0.35s linear;
+}
+
+.what-we-do .boxes-wrapper:hover a img {
+  filter: invert(1);
+}
+
+/* What we do CSS End */
+
+/* Our Progress CSS Start */
+.our-progress {
+  padding: 80px 0;
+  background-color: #fafffb;
+}
+
+.our-progress ul li {
+  padding: 40px;
+  border-right: 1px solid #c4c4c480;
+  text-align: center;
+}
+
+.our-progress ul li:last-child {
+  border-right: none;
+}
+
+.our-progress ul li img {
+  margin-bottom: 10px;
+}
+
+.our-progress ul li h4 {
+  margin-bottom: 15px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.our-progress ul li h2 {
+  margin: 0;
+
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #20b15a;
+}
+
+/* Our Progress CSS End */
+
+/* Our Portfolio CSS Start */
+.portfolio {
+  padding: 75px 0;
+}
+
+.portfolio-container {
+  column-count: 2;
+  column-gap: 6em;
+}
+
+.portfolio h2.main-heading {
+  margin-bottom: 75px;
+}
+
+.portfolio .portfolio-wrapper {
+  display: inline-block;
+  width: 100%;
+  break-inside: avoid;
+}
+
+.portfolio .portfolio-wrapper:nth-child(odd) {
+  margin: 0 0 6em;
+}
+
+.portfolio .portfolio-wrapper img {
+  margin-bottom: 42px;
+  width: 100%;
+}
+
+.portfolio .portfolio-wrapper h4 {
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 15px;
+}
+
+.portfolio .portfolio-wrapper p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+
+  padding-right: 27px;
+}
+
+/* Our Portfolio CSS End */
+
+/* Testimonials CSS Start */
+.testimonials {
+  padding: 115px 0;
+}
+
+.testimonials-slider .item {
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  background-color: #fff;
+  margin: 0 23.5px;
+}
+
+.testimonials-slider .item p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+
+.testimonials-container {
+  margin-left: 5%;
+}
+
+.testimonials-slider .item .client-detail {
+  gap: 10px;
+}
+
+.testimonials-slider .item .client-detail h4 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 5px;
+}
+
+.testimonials-slider .item .client-detail p {
+  margin: 0;
+}
+
+.testimonials-slider .item .client-detail img {
+  background: #2427291a;
+  border-radius: 60px;
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+}
+
+.testimonials-slider .slick-track {
+  padding: 20px 0;
+}
+
+.testimonials-slider .slick-list {
+  padding: 0 20% 0 0;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  display: none;
+}
+
+.testimonials-slider .slick-arrow {
+  left: unset;
+  right: 7%;
+  bottom: unset;
+  top: -125px;
+  border: 1px solid #000000;
+  height: 60px;
+  width: 60px;
+  border-radius: 60px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  transition: all 0.35s linear;
+}
+
+.testimonials-slider .slick-arrow svg {
+  fill: #000;
+  height: 22px;
+  width: 22px;
+}
+
+.testimonials-slider .slick-arrow:hover {
+  background-color: #d7f5dc;
+  border-color: #d7f5dc;
+}
+
+.testimonials-slider .slick-prev {
+  right: 13%;
+}
+
+/* Testimonials CSS End */
+
+/* Subscribe CSS Start */
+.subcribe {
+  padding: 95px 0;
+}
+
+.subcribe h5.sub-heading {
+  margin-bottom: 22px;
+}
+
+.subcribe h2.main-heading {
+  text-transform: capitalize;
+  line-height: 1.5;
+  margin-bottom: 5px;
+}
+
+.subcribe p {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+
+  color: #8b8b8b;
+  margin-bottom: 40px;
+}
+
+.subcribe form input[type="email"] {
+  padding: 20px 16px 20px 16px;
+  border-radius: 14px;
+  border: 1px solid #000;
+  width: 100%;
+
+  outline: 0;
+  max-height: 62px;
+}
+
+.subcribe form input::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #8b8b8b;
+}
+
+.subcribe form input[type="submit"] {
+  position: absolute;
+  right: 4.5px;
+  padding: 8px 24px 8px 24px;
+  border-radius: 14px;
+  background-color: #f55f1d;
+  border: none;
+  outline: 0;
+  color: #fff;
+  height: 52px;
+  top: 4.5px;
+}
+
+.subcribe form {
+  position: relative;
+}
+
+div#subscribe-response-message {
+  margin-top: 15px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+
+  color: #8b8b8b;
+}
+
+/* Subscribe CSS End */
+
+/* Footer CSS Start */
+.site-footer {
+  padding: 75px 0 30px;
+  background-color: #00ca72;
+}
+
+.site-footer h2 {
+  font-size: 39px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.site-footer h2 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.site-footer p {
+  font-size: 20px;
+  font-weight: 400;
+  max-width: 350px;
+  line-height: 27px;
+  margin: 0;
+}
+
+.site-footer .social-icons {
+  margin-top: 20px;
+  column-gap: 15px;
+}
+
+.site-footer .social-icons li a {
+  height: 41px;
+  width: 41px;
+  border-radius: 41px;
+  background-color: #20b15a;
+  color: #fff;
+  font-size: 17px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.site-footer .social-icons li a i {
+  line-height: 1;
+}
+
+.site-footer h3 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 25px;
+}
+
+.site-footer .footer-menu {
+  row-gap: 25px;
+}
+
+.site-footer .footer-menu li a {
+  display: inline-block;
+
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1;
+  color: inherit;
+  text-decoration: none;
+}
+
+.site-footer .copyright {
+  margin: 70px 0 0;
+}
+
+/* Footer CSS End */
+
+/* Media Query */
+@media screen and (max-width: 1199px) {
+  .container {
+    max-width: 1140px;
+  }
+  /* Global CSS */
+
+  .hero-banner h2 {
+    font-size: 44px;
+  }
+
+  .social-logos {
+    padding: 35px 0;
+  }
+  /* Hero Section */
+
+  .what-we-do .boxes-wrapper {
+    padding-right: 30px;
+  }
+
+  .what-we-do .boxes-wrapper h3 {
+    min-height: 57px;
+  }
+
+  /* What we do */
+
+  .testimonials-slider .slick-arrow {
+    right: 15px;
+  }
+
+  .testimonials-slider .slick-prev {
+    right: 46px;
+  }
+
+  .testimonials-slider .slick-prev {
+    right: 90px;
+  }
+
+  .testimonials-container {
+    margin-left: 0;
+  }
+
+  .testimonials-slider .slick-list {
+    padding: 0 10% 0 0;
+  }
+
+  .testimonials,
+  .subcribe {
+    padding: 80px 0;
+  }
+
+  .our-progress {
+    padding: 60px 0;
+  }
+
+  .testimonials-slider .item {
+    padding: 30px;
+  }
+
+  /* Testimonials */
+}
+
+@media screen and (max-width: 992px) {
+  header .navbar-expand-lg .navbar-nav {
+    row-gap: 20px;
+  }
+  /* Header */
+
+  .hero-banner h2 {
+    font-size: 34px;
+  }
+
+  .hero-banner p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .hero-banner {
+    padding: 90px 0 25px;
+  }
+  /* Hero Banner */
+
+  .what-we-do .boxes-wrapper {
+    padding: 30px;
+  }
+
+  .what-we-do .boxes-wrapper > img {
+    width: 70px;
+  }
+
+  .what-we-do .boxes-wrapper h3 {
+    font-size: 20px;
+  }
+
+  .what-we-do .boxes-wrapper p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .what-we-do .boxes-wrapper a {
+    font-size: 16px;
+    padding: 10px 15px;
+  }
+
+  .what-we-do .boxes-wrapper a img {
+    width: 14px;
+  }
+  /* What we do */
+
+  .our-progress {
+    padding: 50px 0;
+  }
+
+  .our-progress ul li {
+    border-right: none;
+  }
+  /* Our Progress */
+
+  .portfolio-container {
+    column-gap: 4em;
+  }
+
+  .portfolio .portfolio-wrapper:nth-child(odd) {
+    margin: 0 0 4em;
+  }
+
+  .portfolio .portfolio-wrapper p {
+    font-size: 14px;
+    padding-right: 0;
+  }
+  /* Portfolio */
+
+  .testimonials,
+  .subcribe {
+    padding: 60px 0;
+  }
+
+  .testimonials-slider .slick-arrow {
+    height: 50px;
+    width: 50px;
+  }
+
+  .testimonials-slider .slick-list {
+    padding: 0 30% 0 0;
+  }
+  /* Testimonials */
+
+  .site-footer p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .site-footer .col-md-4 {
+    width: 25%;
+  }
+
+  .site-footer .col-md-3 {
+    width: 33.33%;
+  }
+
+  .site-footer .footer-menu li a {
+    font-size: 16px;
+  }
+
+  .site-footer .footer-menu {
+    row-gap: 15px;
+  }
+  /* Footer */
+}
+
+@media screen and (max-width: 767px) {
+  br {
+    display: none;
+  }
+
+  .main-heading {
+    font-size: 27px;
+  }
+
+  .sub-heading {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+
+  header .navbar-collapse {
+    padding-top: 30px;
+  }
+
+  /* Global */
+
+  .hero-banner .col-md-6 {
+    text-align: center;
+    align-items: center;
+  }
+
+  .hero-banner .row,
+  .what-we-do .row {
+    row-gap: 30px;
+  }
+
+  .social-logos .nav {
+    justify-content: center;
+    row-gap: 25px;
+  }
+
+  .social-logos .nav li {
+    flex: 0 0 100%;
+    padding: 0 15px;
+    text-align: center;
+  }
+  /* Hero Banner */
+
+  .what-we-do .boxes-wrapper h3 {
+    min-height: auto;
+  }
+  /* What we do */
+
+  .our-progress ul li {
+    padding: 25px;
+    flex: 0 0 100%;
+  }
+  /* Our Progress */
+
+  .portfolio-container {
+    column-count: 1;
+  }
+
+  .portfolio .portfolio-wrapper {
+    margin: 0 0 3em;
+  }
+
+  .portfolio .portfolio-wrapper:last-child {
+    margin: 0;
+  }
+  /* Portfolio */
+
+  .testimonials-slider .slick-list {
+    padding: 0;
+  }
+
+  .testimonials-slider .item p {
+    font-size: 16px;
+  }
+
+  .testimonials-slider .item {
+    padding: 25px;
+  }
+
+  .testimonials-slider .item .client-detail h4 {
+    font-size: 18px;
+  }
+
+  .testimonials-slider .slick-arrow {
+    height: 40px;
+    width: 40px;
+    top: -15px;
+  }
+
+  .testimonials-slider .slick-arrow svg {
+    height: 17px;
+    width: 17px;
+  }
+
+  .testimonials-slider .slick-prev {
+    right: 70px;
+  }
+  /* Testimonials */
+
+  .subcribe form input::placeholder {
+    font-size: 14px;
+  }
+  /* Subscribe */
+
+  .site-footer .row {
+    row-gap: 30px;
+  }
+
+  .site-footer .copyright {
+    margin: 30px 0 0;
+    text-align: center;
+  }
+
+  .site-footer {
+    padding: 60px 0 30px;
+  }
+
+  .site-footer .col-md-4,
+  .site-footer .col-md-3 {
+    width: 100%;
+  }
+  /* Footer */
+}

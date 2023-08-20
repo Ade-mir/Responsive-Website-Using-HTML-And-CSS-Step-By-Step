@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Specifies the character encoding for the HTML document. "UTF-8" encompasses almost all of the characters and symbols in the world.  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Controls the layout on mobile browsers. "width=device-width" makes the layout render at the actual device width. "initial-scale=1" establishes a 1:1 relationship between CSS pixels and device-independent pixels. This helps ensure a consistent experience across devices. -->
+    <title>Design Agency</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- These hint the browser to establish an early connection to the provided domain. This is an optimization that can make the resources from these domains load faster. -->
+
+    <!-- Styles -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    />
+    <!-- References CSS files. The browser fetches and applies the styles defined within these files to the HTML content. The provided code includes styles from Google Fonts, Slick Carousel, Bootstrap Icons, Bootstrap framework, and custom styles. -->
+    <link rel="stylesheet" href="/assets/fonts/font-stylesheet.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+
+    <!-- Scripts -->
+    <script
+      src="//ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+      defer
+    ></script>
+    <script
+      src="//cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      defer
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      defer
+    ></script>
+    <script src="/assets/js/script.js" defer></script>
+  </head>
+
+  <body>
+    <!-- Header Start -->
+    <header class="site-header py-3 fixed-top">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg p-0">
+          <a class="navbar-brand p-0 m-0" href="#">Design<span>AGENCY</span></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gx-5">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-dark fw-regular"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Services
+                  <img
+                    src="/assets/img/down-arrow.png"
+                    class="ms-2"
+                    alt="arrow"
+                  />
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a class="dropdown-item text-dark" href="#">Action</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Submenu item 3</a>
+                    <!-- <ul class="dropdown-menu dropdown-submenu">
+                                        <li>
+                                            <a class="dropdown-item text-dark" href="#">Multi level 1</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item text-dark" href="#">Multi level 2</a>
+                                        </li>
+                                    </ul> -->
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-dark" href="#"
+                      >Something else here</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark fw-regular" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark fw-regular" href="#">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-dark fw-regular btn btn-outline-success px-4 radius-10"
+                  href="#"
+                  >Login</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white fw-regular btn btn-success px-4 radius-10"
+                  href="#"
+                  >Register</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Hero Banner Start -->
+    <section class="hero-banner">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-md-6 d-flex flex-column align-items-start justify-content-center"
+          >
+            <h2>Increase Your Customers Loyalty and Satisfaction</h2>
+            <p>
+              We help businesses like yours earn more customers, standout from
+              competitors, make more money
+            </p>
+            <a
+              href="#"
+              class="nav-link text-white fw-regular btn btn-success px-4 radius-10"
+              >Get Started</a
+            >
+          </div>
+          <div class="col-md-6">
+            <img src="/assets/img/Group 38.png" alt="Hero Banner Image" />
+          </div>
+        </div>
+      </div>
+      <div class="social-logos">
+        <div class="container">
+          <ul class="nav justify-content-between">
+            <li>
+              <img src="/assets/img/logos_google.png" alt="Google" />
+            </li>
+            <li>
+              <img src="/assets/img/Trello-logo-blue 1.png" alt="Trello" />
+            </li>
+            <li>
+              <img src="/assets/img/logos_monday.png" alt="Monday" />
+            </li>
+            <li>
+              <img src="/assets/img/Notion.png" alt="Notion" />
+            </li>
+            <li>
+              <img src="/assets/img/Slack.png" alt="Slack" />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Banner End -->
+
+    <!-- What we do Start-->
+    <section class="what-we-do" id="what-we-do">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h5 class="sub-heading">What we do</h5>
+            <h2 class="main-heading">
+              We provide the Perfect Solution to your business growth
+            </h2>
+          </div>
+          <div class="col-md-4">
+            <div class="boxes-wrapper">
+              <img src="/assets/img/Activity.png" alt="Activity" class="mb-3" />
+              <h3>Grow Your Business</h3>
+              <p>We help identify the best ways to improve your business</p>
+              <a href="#"
+                >Learn More
+                <img src="/assets/img/right-arrow.png" alt="arrow" class="ms-2"
+              /></a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="boxes-wrapper">
+              <img src="/assets/img/Heart.png" alt="Heart" class="mb-3" />
+              <h3>Improve brand loyalty</h3>
+              <p>We help identify the best ways to improve your business</p>
+              <a href="#"
+                >Learn More
+                <img src="/assets/img/right-arrow.png" alt="arrow" class="ms-2"
+              /></a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="boxes-wrapper">
+              <img src="/assets/img/Work.png" alt="Work" class="mb-3" />
+              <h3>Improve Business Model</h3>
+              <p>We help identify the best ways to improve your business</p>
+              <a href="#"
+                >Learn More
+                <img src="/assets/img/right-arrow.png" alt="arrow" class="ms-2"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- What we do End -->
+
+    <!-- Our Progress Start -->
+    <section class="our-progress">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <ul class="nav justify-content-center">
+              <li>
+                <img src="/assets/img/project-plan.png" alt="project plan" />
+                <h4>Completed Projects</h4>
+                <h2>100+</h2>
+              </li>
+              <li>
+                <img src="/assets/img/rating (1).png" alt="rating" />
+                <h4>Customer Satisfaction</h4>
+                <h2>20%</h2>
+              </li>
+              <li>
+                <img src="/assets/img/raise.png" alt="raise" />
+                <h4>Raised by Clients</h4>
+                <h2>$10M</h2>
+              </li>
+              <li>
+                <img src="/assets/img/timeline 1.png" alt="timeline" />
+                <h4>Years in Business</h4>
+                <h2>2 yrs</h2>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Our Progress End -->
+
+    <!-- Our Portfolio End -->
+    <div class="portfolio" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h5 class="sub-heading">Our Portfolio</h5>
+            <h2 class="main-heading">
+              We provide the Perfect Solution <br />
+              to your business growth
+            </h2>
+          </div>
+          <div class="portfolio-container">
+            <div class="portfolio-wrapper">
+              <img src="/assets/img/portfolio-1.png" alt="Portfolio 1" />
+              <h4>Digital Marketing Agency Website</h4>
+              <p>
+                This is a website for a client who want to achieve their goals
+                and meet their users needs while also increasing their reach.
+                Accross all platforms. This is a website rebrand
+              </p>
+            </div>
+
+            <div class="portfolio-wrapper">
+              <img src="/assets/img/portfolio-3.png" alt="Portfolio 3" />
+              <h4>Digital Marketing Agency Website</h4>
+              <p>
+                This is a website for a client who want to achieve their goals
+                and meet their users needs while also increasing their reach.
+                Accross all platforms. This is a website rebrand
+              </p>
+            </div>
+
+            <div class="portfolio-wrapper">
+              <img src="/assets/img/portfolio-2.png" alt="Portfolio 2" />
+              <h4>Digital Marketing Agency Website</h4>
+              <p>
+                This is a website for a client who want to achieve their goals
+                and meet their users needs while also increasing their reach.
+                Accross all platforms. This is a website rebrand
+              </p>
+            </div>
+
+            <div class="portfolio-wrapper">
+              <img src="/assets/img/portfolio-4.png" alt="Portfolio 4" />
+              <h4>Digital Marketing Agency Website</h4>
+              <p>
+                This is a website for a client who want to achieve their goals
+                and meet their users needs while also increasing their reach.
+                Accross all platforms. This is a website rebrand
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Our Portfolio End -->
+
+    <!-- Testimonials Start -->
+    <div class="testimonials">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h5 class="sub-heading">TESTIMONIALS</h5>
+            <h2 class="main-heading">
+              See what our customer <br />
+              say about us
+            </h2>
+          </div>
+        </div>
+      </div>
+      <div class="testimonials-container">
+        <div class="testimonials-slider">
+          <div class="item">
+            <p>
+              Thank You for your service. I am very pleased with the result. I
+              have seen exponencial growth in my business and its all thanks to
+              your amazing service
+            </p>
+            <div
+              class="client-detail d-flex justify-content-start align-items-center"
+            >
+              <img src="/assets/img/avatar.png" alt="Avatar" />
+              <div class="wrapper">
+                <h4>Emily Stones</h4>
+                <p>CEO, Marketing Guru</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <p>
+              Thank You for your service. I am very pleased with the result. I
+              have seen exponencial growth in my business and its all thanks to
+              your amazing service
+            </p>
+            <div
+              class="client-detail d-flex justify-content-start align-items-center"
+            >
+              <img src="/assets/img/avatar.png" alt="Avatar" />
+              <div class="wrapper">
+                <h4>Emily Stones</h4>
+                <p>CEO, Marketing Guru</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <p>
+              Thank You for your service. I am very pleased with the result. I
+              have seen exponencial growth in my business and its all thanks to
+              your amazing service
+            </p>
+            <div
+              class="client-detail d-flex justify-content-start align-items-center"
+            >
+              <img src="/assets/img/avatar.png" alt="Avatar" />
+              <div class="wrapper">
+                <h4>Emily Stones</h4>
+                <p>CEO, Marketing Guru</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <p>
+              Thank You for your service. I am very pleased with the result. I
+              have seen exponencial growth in my business and its all thanks to
+              your amazing service
+            </p>
+            <div
+              class="client-detail d-flex justify-content-start align-items-center"
+            >
+              <img src="/assets/img/avatar.png" alt="Avatar" />
+              <div class="wrapper">
+                <h4>Emily Stones</h4>
+                <p>CEO, Marketing Guru</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Testimonials -->
+
+    <div class="subcribe">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-lg-5 text-center">
+            <h5 class="sub-heading">SUBSCRIBE</h5>
+            <h2 class="main-heading">
+              Subscribe to get the latest news about us
+            </h2>
+            <p>
+              Please drop your email below to get daily update about what we do
+            </p>
+            <form id="subscribe-form">
+              <input
+                type="email"
+                name="subscribe"
+                id="subscribe"
+                required
+                placeholder="Enter Your Email Address"
+              />
+              <input type="submit" value="Subscribe" />
+            </form>
+            <div id="subscribe-response-message" style="display: none"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Testimonials End -->
+
+    <!-- Footer Start -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <h2><a href="/">WEB LOGO</a></h2>
+            <p>
+              Some footer text about the Agency. Just a little description to
+              help people understand you better
+            </p>
+            <ul class="nav social-icons">
+              <li>
+                <a href="https://facebook.com/" target="_blank">
+                  <i class="bi bi-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/" target="_blank">
+                  <i class="bi bi-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/" target="_blank">
+                  <i class="bi bi-linkedin"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/" target="_blank">
+                  <i class="bi bi-instagram"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h3>Quick Links</h3>
+            <ul class="nav footer-menu flex-column">
+              <li>
+                <a href="#what-we-do">Services</a>
+              </li>
+              <li>
+                <a href="#portfolio">Portfolio</a>
+              </li>
+              <li>
+                <a href="#">About Us</a>
+              </li>
+              <li>
+                <a href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h3>Address</h3>
+            <p>
+              Design Agency Head Office. Place Road 123 <br />
+              Country
+            </p>
+          </div>
+          <div class="col-md-12">
+            <p class="copyright">Copyright &copy; Design Agency 2023</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
+  </body>
+</html>
